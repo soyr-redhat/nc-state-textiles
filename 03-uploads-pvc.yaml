@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: uploads-pvc
+  namespace: ai-workshop
+  labels:
+    app: librechat
+spec:
+  accessModes:
+    - ReadWriteMany  # Multiple pods can share uploads
+  resources:
+    requests:
+      storage: 20Gi
+  # Optional: Specify storage class that supports RWX
+  # storageClassName: efs-sc  # or nfs-client, etc.

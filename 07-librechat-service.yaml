@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: librechat
+  namespace: ai-workshop
+  labels:
+    app: librechat
+spec:
+  type: ClusterIP
+  ports:
+  - port: 3080
+    targetPort: 3080
+    protocol: TCP
+    name: http
+  selector:
+    app: librechat
+  sessionAffinity: ClientIP  # Sticky sessions for better UX
+  sessionAffinityConfig:
+    clientIP:
+      timeoutSeconds: 10800  # 3 hours

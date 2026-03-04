@@ -1,0 +1,41 @@
+feedback_id,date,product_name,rating,comment,customer_segment
+FB001,2024-01-15,Urban Trench Coat,5,"Absolutely love this coat! The fit is perfect and the quality is outstanding. Worth every penny.",Premium
+FB002,2024-01-18,Classic Wool Sweater,4,"Great sweater but runs a bit small. Wish there were more color options available.",Mid-tier
+FB003,2024-01-22,Minimalist Tote Bag,5,"This bag is everything I wanted. Clean design, durable materials, and it fits my laptop perfectly!",Premium
+FB004,2024-01-25,Stretch Denim Jeans,2,"The fit was really off. Too tight in the thighs and too loose at the waist. Had to return.",Budget
+FB005,2024-02-01,Cashmere Scarf,5,"Incredibly soft and luxurious. Perfect gift for my sister. She loved it!",Luxury
+FB006,2024-02-03,Cotton T-Shirt 3-Pack,3,"Decent quality for the price but they shrank significantly after first wash. Size up!",Budget
+FB007,2024-02-08,Leather Ankle Boots,4,"Beautiful boots but the sizing is inconsistent. Left boot fits perfectly, right is tight.",Premium
+FB008,2024-02-12,Silk Blouse,5,"The quality is exceptional. The color is exactly as shown online. Fast shipping too!",Luxury
+FB009,2024-02-15,Yoga Pants,1,"These pilled after ONE wear. Very disappointed. The fabric quality is terrible.",Budget
+FB010,2024-02-18,Oversized Blazer,4,"Love the style and fit. Only complaint is the lining feels cheap compared to the exterior fabric.",Mid-tier
+FB011,2024-02-22,Merino Wool Cardigan,5,"Perfect weight for layering. The craftsmanship is excellent. Will buy in other colors.",Premium
+FB012,2024-02-25,Linen Summer Dress,3,"Pretty dress but wrinkles terribly. Needs ironing after every wear which is annoying.",Mid-tier
+FB013,2024-03-01,Crossbody Messenger Bag,5,"Best purchase this year! Functional, stylish, and the leather quality is top-notch.",Premium
+FB014,2024-03-05,Athletic Shorts,2,"The waistband elastic broke after 3 washes. Not durable at all for the price.",Budget
+FB015,2024-03-08,Tailored Dress Pants,4,"Great fit and professional look. Wish they offered more inseam length options.",Mid-tier
+FB016,2024-03-12,Cashmere Sweater,5,"Absolutely worth the investment. Incredibly soft and the fit is flattering.",Luxury
+FB017,2024-03-15,Canvas Sneakers,3,"Comfortable but the white canvas stains very easily. Hard to keep clean.",Budget
+FB018,2024-03-18,Wool Peacoat,5,"This coat is stunning! Heavy, warm, and the cut is very flattering. Highly recommend.",Premium
+FB019,2024-03-22,Basic Tank Top,2,"The fabric is see-through. Not suitable to wear alone. Should have been disclosed.",Budget
+FB020,2024-03-25,Leather Belt,4,"Good quality leather and classic design. The buckle feels a bit light though.",Mid-tier
+FB021,2024-03-28,Silk Midi Skirt,5,"Gorgeous skirt! The drape is beautiful and it's incredibly comfortable to wear all day.",Luxury
+FB022,2024-04-01,Denim Jacket,4,"Love the vintage wash and fit. Buttons could be more secure - one fell off already.",Mid-tier
+FB023,2024-04-05,Running Socks 6-Pack,5,"Best athletic socks I've owned. No slipping, great cushioning, and they don't smell!",Budget
+FB024,2024-04-08,Structured Handbag,3,"Beautiful bag but smaller than expected. Should have better size photos online.",Premium
+FB025,2024-04-12,Linen Button-Down,4,"Great summer shirt. Breathable and stylish. Runs large so size down.",Mid-tier
+FB026,2024-04-15,Wool Fedora Hat,5,"Perfect accessory! Quality construction and it holds its shape beautifully.",Premium
+FB027,2024-04-18,Graphic T-Shirt,2,"The print started cracking after 2 washes. Poor quality for a $35 shirt.",Budget
+FB028,2024-04-22,Suede Loafers,5,"Extremely comfortable right out of the box. No break-in period needed. Love them!",Luxury
+FB029,2024-04-25,Activewear Leggings,4,"Great compression and they stay in place. Wish there were pockets!",Mid-tier
+FB030,2024-04-28,Knit Beanie,3,"Warm but the material is itchy. Can't wear it without a headache.",Budget
+FB031,2024-05-01,Tailored Blazer,5,"Impeccable tailoring! Fits like it was custom-made. Professional and stylish.",Luxury
+FB032,2024-05-05,Cotton Chinos,4,"Good quality and comfortable. Color faded slightly after multiple washes.",Mid-tier
+FB033,2024-05-08,Sandals,1,"Straps broke on the first wear. Terrible quality control. Requesting refund.",Budget
+FB034,2024-05-12,Maxi Dress,5,"Flowy, comfortable, and perfect for summer events. Got so many compliments!",Mid-tier
+FB035,2024-05-15,Leather Wallet,4,"Sleek design and good leather. Wish it had more card slots though.",Premium
+FB036,2024-05-18,Cashmere Beanie,5,"Soft, warm, and doesn't make my head itchy like other beanies. Perfect!",Luxury
+FB037,2024-05-22,Polo Shirt,3,"Decent shirt but the collar doesn't hold its shape after washing.",Mid-tier
+FB038,2024-05-25,Backpack,5,"Incredibly functional with lots of compartments. Durable and water-resistant!",Premium
+FB039,2024-05-28,Sleep Shorts,2,"The elastic waistband is too tight. Uncomfortable to sleep in.",Budget
+FB040,2024-06-01,Linen Blazer,4,"Perfect summer blazer. Lightweight and breathable. Could use better lining.",Premium

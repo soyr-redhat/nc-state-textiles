@@ -1,0 +1,66 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: librechat-config
+  namespace: ai-workshop
+data:
+  # Application Settings
+  APP_TITLE: "AI Workshop - LibreChat"
+  ALLOW_REGISTRATION: "true"
+  ALLOW_SOCIAL_LOGIN: "false"
+  ALLOW_SOCIAL_REGISTRATION: "false"
+
+  # Session Configuration
+  SESSION_EXPIRY: "1000 * 60 * 60 * 24"  # 24 hours
+  REFRESH_TOKEN_EXPIRY: "1000 * 60 * 60 * 24 * 7"  # 7 days
+
+  # File Upload Settings
+  FILE_UPLOAD_ENABLED: "true"
+  FILE_UPLOAD_SIZE_LIMIT: "50"  # MB
+  FILE_UPLOAD_TYPES: "image/png,image/jpeg,image/jpg,image/webp,application/pdf,text/csv,text/plain,application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+
+  # Image Vision Support
+  IMAGE_VISION_ENABLED: "true"
+
+  # Rate Limiting
+  LIMIT_CONCURRENT_MESSAGES: "true"
+  MESSAGE_RATE_LIMIT: "100"  # requests
+  MESSAGE_RATE_LIMIT_WINDOW: "15"  # minutes
+
+  # Model Configuration
+  OPENAI_MODELS: "gpt-4-turbo-preview,gpt-4,gpt-3.5-turbo,claude-3-opus,claude-3-sonnet"
+  OPENAI_REVERSE_PROXY: ""
+
+  # UI Configuration
+  SHOW_BIRTHDATE_REGISTRATION: "false"
+  DEBUG_LOGGING: "false"
+  DEBUG_CONSOLE: "false"
+
+  # Search and RAG
+  SEARCH_ENABLED: "false"  # Enable if you have RAG backend
+  RAG_API_URL: ""
+
+  # Endpoints to Enable
+  ENDPOINTS: "openAI"
+
+  # Custom Footer
+  CUSTOM_FOOTER: "Red Hat AI Workshop - April 2, 2025"
+
+  # Conversation Settings
+  CONVERSATIONS_ENABLED: "true"
+  TITLE_CONVO: "true"
+
+  # Plugins and Tools
+  PLUGINS_ENABLED: "false"
+  TOOLS_ENABLED: "false"
+
+  # Model Parameters Defaults
+  OPENAI_DEFAULT_MODEL: "gpt-4-turbo-preview"
+  OPENAI_DEFAULT_TEMPERATURE: "0.7"
+  OPENAI_DEFAULT_TOP_P: "1"
+  OPENAI_DEFAULT_PRESENCE_PENALTY: "0"
+  OPENAI_DEFAULT_FREQUENCY_PENALTY: "0"
+
+  # Workshop-Specific
+  WORKSHOP_MODE: "true"
+  ENABLE_PROMPT_HISTORY: "true"

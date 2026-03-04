@@ -1,0 +1,162 @@
+# LibreChat Advanced Configuration
+# Mount this as a ConfigMap for more granular control
+
+version: 1.0.5
+
+# Cache settings for performance
+cache:
+  enabled: true
+  ttl: 3600  # 1 hour
+
+# Rate limiting configuration
+rateLimits:
+  conversationsImport:
+    enabled: true
+    max: 10
+    windowInMinutes: 15
+
+  fileUploads:
+    enabled: true
+    max: 50
+    windowInMinutes: 15
+    ipMax: 100
+    ipWindowInMinutes: 60
+
+  registrations:
+    enabled: true
+    max: 100  # Workshop capacity
+    windowInMinutes: 60
+
+# File configuration
+fileConfig:
+  endpoints:
+    openAI:
+      disabled: false
+      fileLimit: 10
+      fileSizeLimit: 50  # MB
+      totalSizeLimit: 100  # MB
+      supportedMimeTypes:
+        - "image/png"
+        - "image/jpeg"
+        - "image/jpg"
+        - "image/webp"
+        - "image/gif"
+        - "application/pdf"
+        - "text/plain"
+        - "text/csv"
+        - "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        - "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+
+  # Server file size limits
+  serverFileSizeLimit: 50  # MB
+  avatarSizeLimit: 2  # MB
+
+# Model configuration
+endpoints:
+  openAI:
+    name: "Workshop AI Models"
+    apiKey: "${OPENAI_API_KEY}"
+    baseURL: "${OPENAI_API_BASE}"
+    models:
+      default:
+        - "gpt-4-turbo-preview"
+        - "gpt-4"
+        - "gpt-3.5-turbo"
+        - "claude-3-opus-20240229"
+        - "claude-3-sonnet-20240229"
+        - "claude-3-haiku-20240307"
+      fetch: false  # Don't fetch model list from API
+    titleConvo: true
+    titleModel: "gpt-3.5-turbo"
+    summarize: false
+    summaryModel: "gpt-3.5-turbo"
+    dropParams: []
+    modelDisplayLabel: "Workshop Models"
+    addParams:
+      max_tokens: 4000
+
+# Workshop-specific presets
+presets:
+  - title: "Product Description Writer"
+    endpoint: "openAI"
+    model: "gpt-4"
+    conversationSignature: "product-description"
+    promptPrefix: "You are a senior fashion marketing strategist. Create compelling product descriptions that emphasize emotional appeal and brand differentiation."
+    temperature: 0.7
+    max_tokens: 500
+
+  - title: "Image Analyst"
+    endpoint: "openAI"
+    model: "gpt-4-turbo-preview"
+    conversationSignature: "image-analysis"
+    promptPrefix: "You are a retail data analyst. Analyze images systematically, identifying colors, patterns, styles, and market positioning."
+    temperature: 0.3
+    max_tokens: 1000
+
+  - title: "Sentiment Analyzer"
+    endpoint: "openAI"
+    model: "gpt-4"
+    conversationSignature: "sentiment-analysis"
+    promptPrefix: "You are a customer insights specialist. Analyze feedback data to extract themes, sentiment, and actionable recommendations."
+    temperature: 0.2
+    max_tokens: 1500
+
+  - title: "Trend Forecaster"
+    endpoint: "openAI"
+    model: "gpt-4"
+    conversationSignature: "trend-forecast"
+    promptPrefix: "You are a fashion trend analyst. Identify emerging signals and predict market movements based on visual and contextual data."
+    temperature: 0.8
+    max_tokens: 2000
+
+  - title: "Creative Copywriter"
+    endpoint: "openAI"
+    model: "gpt-4"
+    conversationSignature: "creative-copy"
+    promptPrefix: "You are a creative copywriter for premium fashion brands. Write bold, minimal, and emotionally resonant marketing copy."
+    temperature: 0.9
+    max_tokens: 800
+
+# UI customization
+interface:
+  privacyPolicy:
+    externalUrl: "https://your-company.com/privacy"
+    openNewTab: true
+
+  termsOfService:
+    externalUrl: "https://your-company.com/terms"
+    openNewTab: true
+
+# Registration settings
+registration:
+  socialLogins: []
+  allowedDomains: []  # Empty = allow all for workshop
+
+# Model specifications
+modelSpecs:
+  enforce: false
+  prioritize: true
+  list:
+    - name: "gpt-4-turbo-preview"
+      label: "GPT-4 Turbo"
+      description: "Most capable model for complex tasks"
+      default: true
+      iconURL: ""
+
+    - name: "gpt-4"
+      label: "GPT-4"
+      description: "Advanced reasoning and analysis"
+      default: false
+      iconURL: ""
+
+    - name: "claude-3-opus-20240229"
+      label: "Claude 3 Opus"
+      description: "Excellent for creative and analytical work"
+      default: false
+      iconURL: ""
+
+    - name: "claude-3-sonnet-20240229"
+      label: "Claude 3 Sonnet"
+      description: "Balanced performance and speed"
+      default: false
+      iconURL: ""

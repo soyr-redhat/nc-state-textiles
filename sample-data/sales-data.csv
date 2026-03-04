@@ -1,0 +1,52 @@
+product_id,product_name,category,subcategory,price,units_sold,revenue,region,month,year,color,size_range
+P001,Urban Trench Coat,Outerwear,Coats,295,187,55165,Northeast,January,2024,Camel,XS-XL
+P002,Classic Wool Sweater,Tops,Sweaters,89,342,30438,Midwest,January,2024,Navy,S-XXL
+P003,Minimalist Tote Bag,Accessories,Bags,175,264,46200,West,January,2024,Black,One Size
+P004,Stretch Denim Jeans,Bottoms,Jeans,78,156,12168,Southeast,January,2024,Dark Wash,24-34
+P005,Cashmere Scarf,Accessories,Scarves,125,298,37250,Northeast,January,2024,Charcoal,One Size
+P006,Cotton T-Shirt 3-Pack,Tops,T-Shirts,45,512,23040,National,January,2024,White/Black/Grey,S-XL
+P007,Leather Ankle Boots,Footwear,Boots,225,203,45675,Northeast,February,2024,Black,6-11
+P008,Silk Blouse,Tops,Blouses,165,189,31185,West,February,2024,Ivory,XS-L
+P009,Yoga Pants,Activewear,Bottoms,68,98,6664,West,February,2024,Black,XS-XL
+P010,Oversized Blazer,Outerwear,Blazers,198,234,46332,Northeast,February,2024,Beige,S-XL
+P011,Merino Wool Cardigan,Tops,Cardigans,145,267,38715,Midwest,February,2024,Charcoal,S-XXL
+P012,Linen Summer Dress,Dresses,Casual,135,178,24030,Southeast,February,2024,Sage Green,XS-XL
+P013,Crossbody Messenger Bag,Accessories,Bags,189,312,58968,National,March,2024,Cognac,One Size
+P014,Athletic Shorts,Activewear,Bottoms,42,145,6090,West,March,2024,Navy,S-XXL
+P015,Tailored Dress Pants,Bottoms,Pants,118,276,32568,Northeast,March,2024,Black,24-34
+P016,Cashmere Sweater,Tops,Sweaters,245,198,48510,Northeast,March,2024,Camel,XS-L
+P017,Canvas Sneakers,Footwear,Sneakers,68,423,28764,National,March,2024,White,6-12
+P018,Wool Peacoat,Outerwear,Coats,325,156,50700,Northeast,March,2024,Navy,XS-L
+P019,Basic Tank Top,Tops,Tanks,28,287,8036,Southeast,March,2024,Black,XS-XL
+P020,Leather Belt,Accessories,Belts,65,198,12870,National,March,2024,Brown,S-XL
+P021,Silk Midi Skirt,Bottoms,Skirts,175,145,25375,West,April,2024,Burgundy,XS-L
+P022,Denim Jacket,Outerwear,Jackets,128,389,49792,National,April,2024,Light Wash,S-XXL
+P023,Running Socks 6-Pack,Accessories,Socks,24,634,15216,National,April,2024,Multi,One Size
+P024,Structured Handbag,Accessories,Bags,285,167,47595,Northeast,April,2024,Black,One Size
+P025,Linen Button-Down,Tops,Shirts,95,298,28310,Southeast,April,2024,White,S-XXL
+P026,Wool Fedora Hat,Accessories,Hats,78,134,10452,West,April,2024,Grey,One Size
+P027,Graphic T-Shirt,Tops,T-Shirts,35,267,9345,National,April,2024,Black,S-XXL
+P028,Suede Loafers,Footwear,Flats,195,178,34710,Northeast,April,2024,Tan,6-11
+P029,Activewear Leggings,Activewear,Bottoms,88,445,39160,National,May,2024,Black,XS-XL
+P030,Knit Beanie,Accessories,Hats,32,98,3136,Midwest,May,2024,Navy,One Size
+P031,Tailored Blazer,Outerwear,Blazers,275,212,58300,Northeast,May,2024,Black,XS-L
+P032,Cotton Chinos,Bottoms,Pants,85,323,27455,National,May,2024,Khaki,28-38
+P033,Sandals,Footwear,Sandals,55,512,28160,Southeast,May,2024,Tan,6-11
+P034,Maxi Dress,Dresses,Casual,118,387,45666,Southeast,May,2024,Floral,XS-XL
+P035,Leather Wallet,Accessories,Wallets,95,234,22230,National,May,2024,Black,One Size
+P036,Cashmere Beanie,Accessories,Hats,85,67,5695,Northeast,May,2024,Grey,One Size
+P037,Polo Shirt,Tops,Polos,68,298,20264,National,May,2024,Navy,S-XXL
+P038,Backpack,Accessories,Bags,145,401,58145,National,June,2024,Black,One Size
+P039,Sleep Shorts,Loungewear,Bottoms,38,156,5928,National,June,2024,Grey,S-XL
+P040,Linen Blazer,Outerwear,Blazers,185,267,49395,Southeast,June,2024,Natural,S-XL
+P001,Urban Trench Coat,Outerwear,Coats,295,142,41890,West,February,2024,Black,XS-XL
+P002,Classic Wool Sweater,Tops,Sweaters,89,298,26522,Northeast,February,2024,Charcoal,S-XXL
+P003,Minimalist Tote Bag,Accessories,Bags,175,312,54600,Northeast,March,2024,Cognac,One Size
+P005,Cashmere Scarf,Accessories,Scarves,125,189,23625,West,February,2024,Navy,One Size
+P007,Leather Ankle Boots,Footwear,Boots,225,234,52650,Midwest,March,2024,Brown,6-11
+P013,Crossbody Messenger Bag,Accessories,Bags,189,289,54621,West,April,2024,Black,One Size
+P017,Canvas Sneakers,Footwear,Sneakers,68,512,34816,Southeast,April,2024,Black,6-12
+P022,Denim Jacket,Outerwear,Jackets,128,445,56960,West,May,2024,Medium Wash,S-XXL
+P029,Activewear Leggings,Activewear,Bottoms,88,523,46024,West,June,2024,Navy,XS-XL
+P033,Sandals,Footwear,Sandals,55,634,34870,West,June,2024,White,6-11
+P034,Maxi Dress,Dresses,Casual,118,478,56404,West,June,2024,Solid Navy,XS-XL
