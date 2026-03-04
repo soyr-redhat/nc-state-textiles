@@ -369,23 +369,23 @@ All files are text-based and version control friendly.
 ## Next Steps
 
 ### For Instructors:
-1. ✅ Review `INSTRUCTOR-GUIDE.md` for facilitation tips
-2. ✅ Read `SLIDES-OUTLINE.md` and create presentation
-3. ✅ Review `WORKSHOP-GUIDE.md` to understand participant experience
-4. ✅ Check `WORKSHOP-CHECKLIST.md` for preparation timeline
-5. ✅ Test sample data files in `sample-data/` directory
+1. Review `INSTRUCTOR-GUIDE.md` for facilitation tips
+2. Read `SLIDES-OUTLINE.md` and create presentation
+3. Review `WORKSHOP-GUIDE.md` to understand participant experience
+4. Check `WORKSHOP-CHECKLIST.md` for preparation timeline
+5. Test sample data files in `sample-data/` directory
 
 ### For Technical Setup:
-1. ✅ Review `QUICKSTART.md` for immediate deployment
-2. ✅ Read `README-OPENSHIFT.md` for detailed understanding
-3. ✅ Test deployment in dev environment first
-4. ✅ Verify LibreChat file upload functionality
+1. Review `QUICKSTART.md` for immediate deployment
+2. Read `README-OPENSHIFT.md` for detailed understanding
+3. Test deployment in dev environment first
+4. Verify LibreChat file upload functionality
 
 ### For Participants (Post-Workshop):
-1. ✅ Use `PROMPT-CHEAT-SHEET.md` as quick reference
-2. ✅ Explore `PROMPT-LIBRARY.md` for ready-to-use templates
-3. ✅ Review `WORKSHOP-GUIDE.md` to revisit exercises
-4. ✅ Experiment with `sample-data/` files
+1. Use `PROMPT-CHEAT-SHEET.md` as quick reference
+2. Explore `PROMPT-LIBRARY.md` for ready-to-use templates
+3. Review `WORKSHOP-GUIDE.md` to revisit exercises
+4. Experiment with `sample-data/` files
 
 ---
 

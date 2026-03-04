@@ -540,4 +540,4 @@ Return:
 
 ---
 
-**You're ready to deliver an impactful workshop! Good luck and have fun!** 🚀
+**You're ready to deliver an impactful workshop! Good luck and have fun!**

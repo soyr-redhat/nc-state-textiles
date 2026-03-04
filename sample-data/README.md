@@ -210,4 +210,4 @@ If you have questions about these datasets or need help during the workshop, ask
 
 ---
 
-**Ready to analyze? Upload these files in LibreChat and start experimenting!** 🚀
+**Ready to analyze? Upload these files in LibreChat and start experimenting!**

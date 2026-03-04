@@ -202,4 +202,4 @@ Workshop is considered successful if:
 
 ---
 
-**Good luck! You've got this! 🚀**
+**Good luck! You've got this!**

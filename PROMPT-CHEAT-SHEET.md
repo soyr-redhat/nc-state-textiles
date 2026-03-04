@@ -325,7 +325,7 @@ Cite specific data points or quotes from the document.
 
 ## Common Mistakes to Avoid
 
-| ❌ Don't Do This | ✅ Do This Instead |
+| Don't Do This | Do This Instead |
 |------------------|-------------------|
 | "Analyze this product." | "You are a retail analyst. Analyze this product's color, silhouette, and target demographic. Return as a table." |
 | "Write something creative." | "Write 3 Instagram captions in our brand voice: 'Bold. Minimal. Designed for movement.' Max 150 characters each." |
@@ -430,4 +430,4 @@ Cite specific data points or quotes from the document.
 
 ---
 
-**Good luck! 🚀**
+**Good luck!**

@@ -74,17 +74,17 @@
 - **System Prompts:** Instructions that guide model behavior
 
 ### Slide 9: What LLMs Are Good At
-- ✅ Text generation (writing, summaries, drafts)
-- ✅ Analysis (sentiment, themes, categorization)
-- ✅ Translation and transformation
-- ✅ Question answering (when grounded in data)
-- ✅ Creative brainstorming
+- Text generation (writing, summaries, drafts)
+- Analysis (sentiment, themes, categorization)
+- Translation and transformation
+- Question answering (when grounded in data)
+- Creative brainstorming
 
 ### Slide 10: What LLMs Are NOT Good At
-- ❌ Factual precision (without grounding)
-- ❌ Real-time data (knowledge cutoff dates)
-- ❌ Math/logic (without tools)
-- ❌ Consistency across sessions (unless designed for it)
+- Factual precision (without grounding)
+- Real-time data (knowledge cutoff dates)
+- Math/logic (without tools)
+- Consistency across sessions (unless designed for it)
 - **Key takeaway:** "You bring domain expertise. AI amplifies it."
 
 ### Slide 11: Red Hat AI – Enterprise AI Done Right
@@ -354,11 +354,11 @@ Return as a table.
 - **Red Hat AI enables enterprise control**
 
 ### Slide 39: What to Do Next
-- ✅ Build your prompt library
-- ✅ Try AI with your real data (check company policy!)
-- ✅ Share learnings with your team
-- ✅ Measure time savings
-- ✅ Stay curious
+- Build your prompt library
+- Try AI with your real data (check company policy!)
+- Share learnings with your team
+- Measure time savings
+- Stay curious
 
 ### Slide 40: Resources You're Taking Home
 - Workshop guide (PDF)
@@ -460,4 +460,4 @@ Before the workshop, ensure you have:
 
 ---
 
-**You're ready to deliver an amazing workshop! Good luck! 🚀**
+**You're ready to deliver an amazing workshop! Good luck!**

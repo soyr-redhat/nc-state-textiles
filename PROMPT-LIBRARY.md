@@ -662,4 +662,4 @@ Tone: Approachable, optimistic, empowering.
 
 ---
 
-**Start with these, customize for your needs, and build your own library over time!** 🚀
+**Start with these, customize for your needs, and build your own library over time!**

@@ -499,7 +499,7 @@ Now shorten it to under 50 words and add a call-to-action.
 
 ## Tips for Success
 
-### Do's ✅
+### Do's
 - Be specific about what you want
 - Give context and role
 - Use examples (few-shot)
@@ -507,7 +507,7 @@ Now shorten it to under 50 words and add a call-to-action.
 - Experiment with temperature
 - Constrain the output format
 
-### Don'ts ❌
+### Don'ts
 - Don't ask vague questions
 - Don't assume it knows your brand voice
 - Don't trust the first answer blindly
@@ -570,4 +570,4 @@ Before you leave, think about:
 
 ---
 
-**Thank you for participating! Now go build something amazing. 🚀**
+**Thank you for participating! Now go build something amazing.**

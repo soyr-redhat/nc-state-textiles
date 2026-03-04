@@ -4,16 +4,16 @@
 
 ---
 
-## 📋 Overview
+## Overview
 
 This repository contains everything needed to deliver a 3-hour hands-on AI workshop:
-- ✅ Complete workshop curriculum
-- ✅ OpenShift deployment files for LibreChat
-- ✅ Sample data files (CSV, reports)
-- ✅ Prompt engineering cheat sheet
-- ✅ 20+ ready-to-use prompt templates
-- ✅ Presentation slide outline
-- ✅ Instructor facilitation guide
+- Complete workshop curriculum
+- OpenShift deployment files for LibreChat
+- Sample data files (CSV, reports)
+- Prompt engineering cheat sheet
+- 20+ ready-to-use prompt templates
+- Presentation slide outline
+- Instructor facilitation guide
 
 **Target Audience:** Marketing and sales professionals with no coding experience
 **Duration:** 3 hours (2:00–5:00 PM)
@@ -22,7 +22,7 @@ This repository contains everything needed to deliver a 3-hour hands-on AI works
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### For Instructors:
 
@@ -68,7 +68,7 @@ This repository contains everything needed to deliver a 3-hour hands-on AI works
 
 ---
 
-## 📁 File Structure
+## File Structure
 
 ```
 .
@@ -111,7 +111,7 @@ This repository contains everything needed to deliver a 3-hour hands-on AI works
 
 ---
 
-## 🎯 Workshop Overview
+## Workshop Overview
 
 ### What Participants Will Learn:
 
@@ -150,7 +150,7 @@ This repository contains everything needed to deliver a 3-hour hands-on AI works
 
 ---
 
-## 🛠️ Technical Requirements
+## Technical Requirements
 
 ### Infrastructure:
 - OpenShift cluster (4.12+)
@@ -170,7 +170,7 @@ This repository contains everything needed to deliver a 3-hour hands-on AI works
 
 ---
 
-## 📝 Workshop Agenda
+## Workshop Agenda
 
 | Time | Activity | Duration |
 |------|----------|----------|
@@ -187,20 +187,20 @@ This repository contains everything needed to deliver a 3-hour hands-on AI works
 
 ---
 
-## 🎓 Learning Outcomes
+## Learning Outcomes
 
 By the end of this workshop, participants will be able to:
-- ✅ Understand how LLMs work and their limitations
-- ✅ Write effective prompts using role, context, and constraints
-- ✅ Upload and analyze images, documents, and data
-- ✅ Extract insights from customer feedback and sales data
-- ✅ Use RAG to ground responses in their own documents
-- ✅ Apply prompt engineering to real-world marketing and sales tasks
-- ✅ Build a personal prompt library for their team
+- Understand how LLMs work and their limitations
+- Write effective prompts using role, context, and constraints
+- Upload and analyze images, documents, and data
+- Extract insights from customer feedback and sales data
+- Use RAG to ground responses in their own documents
+- Apply prompt engineering to real-world marketing and sales tasks
+- Build a personal prompt library for their team
 
 ---
 
-## 📚 Key Resources
+## Key Resources
 
 ### For Participants:
 - **WORKSHOP-GUIDE.md** – Complete lab instructions
@@ -220,7 +220,7 @@ By the end of this workshop, participants will be able to:
 
 ---
 
-## 🔧 Deployment
+## Deployment
 
 ### Quick Deploy (5 minutes):
 
@@ -242,7 +242,7 @@ See [QUICKSTART.md](QUICKSTART.md) or [README-OPENSHIFT.md](README-OPENSHIFT.md)
 
 ---
 
-## 🎨 Customization
+## Customization
 
 ### Adapt for Your Industry:
 
@@ -261,7 +261,7 @@ This workshop uses textiles/fashion examples, but the techniques apply universal
 
 ---
 
-## 🤝 Support & Contribution
+## Support & Contribution
 
 ### Getting Help:
 - Review troubleshooting sections in README-OPENSHIFT.md
@@ -276,7 +276,7 @@ This workshop uses textiles/fashion examples, but the techniques apply universal
 
 ---
 
-## 📋 Pre-Workshop Checklist
+## Pre-Workshop Checklist
 
 **1 Week Before:**
 - [ ] Deploy LibreChat to OpenShift
@@ -301,7 +301,7 @@ See [WORKSHOP-CHECKLIST.md](WORKSHOP-CHECKLIST.md) for complete checklist.
 
 ---
 
-## 🌟 Success Metrics
+## Success Metrics
 
 ### Quantitative:
 - 90%+ participants complete at least 2 labs
@@ -316,20 +316,20 @@ See [WORKSHOP-CHECKLIST.md](WORKSHOP-CHECKLIST.md) for complete checklist.
 
 ---
 
-## 📄 License
+## License
 
 [Add your license here]
 
 ---
 
-## ✨ Acknowledgments
+## Acknowledgments
 
 Built for practical AI education.
 Powered by LibreChat, OpenShift, and Red Hat AI.
 
 ---
 
-## 🚀 Ready to Get Started?
+## Ready to Get Started?
 
 1. **Instructors:** Start with [INSTRUCTOR-GUIDE.md](INSTRUCTOR-GUIDE.md)
 2. **Technical Teams:** See [QUICKSTART.md](QUICKSTART.md)
@@ -339,4 +339,4 @@ Powered by LibreChat, OpenShift, and Red Hat AI.
 
 ---
 
-**Let's teach the world to use AI effectively!** 🎓
+**Let's teach the world to use AI effectively!**

@@ -94,12 +94,12 @@ Adjust in PVC files if needed.
 ## Workshop-Specific Features
 
 ### Enabled Capabilities
-- ✅ Image uploads (PNG, JPG, JPEG)
-- ✅ Document uploads (PDF, CSV, TXT, DOCX)
-- ✅ Multi-user support
-- ✅ Conversation history
-- ✅ Model selection
-- ✅ RAG (via file uploads)
+- Image uploads (PNG, JPG, JPEG)
+- Document uploads (PDF, CSV, TXT, DOCX)
+- Multi-user support
+- Conversation history
+- Model selection
+- RAG (via file uploads)
 
 ### Rate Limits
 - 100 requests per 15 minutes per user
