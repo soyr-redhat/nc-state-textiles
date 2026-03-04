@@ -2,16 +2,97 @@
 
 Complete list of files created for the AI Workshop LibreChat deployment.
 
-## Workshop Planning
+## Workshop Planning & Delivery
 
-### CLAUDE.md
-**Purpose:** Complete workshop curriculum and agenda
-- 3-hour workshop plan (2:00-5:00 PM)
-- Lab exercises and scenarios
-- Prompt engineering techniques
-- Use cases for marketing/sales in textiles
+### WORKSHOP-GUIDE.md
+**Purpose:** Participant-facing workshop guide
+- Step-by-step lab instructions
+- Copy-paste ready prompts
+- Hands-on exercises with clear objectives
+- Cross-industry applications
+- Tips and troubleshooting
 
-**Use:** Reference for conducting the workshop
+**Audience:** Workshop participants (marketing/sales professionals)
+
+### INSTRUCTOR-GUIDE.md
+**Purpose:** Instructor facilitation guide
+- Teaching tips and strategies
+- Common questions and answers
+- Troubleshooting scenarios
+- Pacing and timing guidance
+- Post-workshop actions
+
+**Audience:** Workshop facilitator/instructor
+
+### PROMPT-CHEAT-SHEET.md
+**Purpose:** Quick reference for prompt engineering
+- Prompt formula breakdown
+- Core techniques explained
+- Common mistakes to avoid
+- Quick troubleshooting table
+- File upload tips
+
+**Audience:** Participants (take-home reference)
+
+### PROMPT-LIBRARY.md
+**Purpose:** 20+ ready-to-use prompt templates
+- Marketing & copywriting prompts
+- Data analysis prompts
+- Sales & strategy prompts
+- Creative & forecasting prompts
+- Advanced techniques
+
+**Audience:** Participants (copy-paste ready templates)
+
+### SLIDES-OUTLINE.md
+**Purpose:** Presentation slide deck structure
+- 44 slides organized by section
+- Speaker notes and timing
+- Visual recommendations
+- Demo scripts
+- Design guidelines
+
+**Audience:** Instructor (for creating presentation)
+
+---
+
+## Sample Data Files
+
+### sample-data/customer-feedback.csv
+**Purpose:** Customer sentiment analysis exercises
+- 40 customer review entries
+- Ratings, comments, customer segments
+- Products across all categories
+- Date range: Jan-Jun 2024
+
+**Use:** Lab 2 Scenario C (Sentiment Analysis)
+
+### sample-data/sales-data.csv
+**Purpose:** Sales performance analysis exercises
+- 51 sales records
+- Revenue, units sold, regional data
+- Product categories and attributes
+- Date range: Jan-Jun 2024
+
+**Use:** Lab 2 Scenario F (Sales Data Analysis)
+
+### sample-data/quarterly-sales-report.md
+**Purpose:** RAG (document upload) exercises
+- Q2 2024 comprehensive sales report
+- Executive summaries, category breakdowns
+- Regional performance, recommendations
+- Strategic insights
+
+**Use:** Lab 3 (RAG and Document Upload)
+
+### sample-data/README.md
+**Purpose:** Documentation for sample datasets
+- File descriptions and contents
+- Workshop use cases
+- Sample prompts to try
+- Privacy and data security notes
+
+**Audience:** Participants and instructors
 
 ---
 
@@ -287,12 +368,24 @@ All files are text-based and version control friendly.
 
 ## Next Steps
 
+### For Instructors:
+1. ✅ Review `INSTRUCTOR-GUIDE.md` for facilitation tips
+2. ✅ Read `SLIDES-OUTLINE.md` and create presentation
+3. ✅ Review `WORKSHOP-GUIDE.md` to understand participant experience
+4. ✅ Check `WORKSHOP-CHECKLIST.md` for preparation timeline
+5. ✅ Test sample data files in `sample-data/` directory
+
+### For Technical Setup:
 1. ✅ Review `QUICKSTART.md` for immediate deployment
-2. ✅ Check `WORKSHOP-CHECKLIST.md` for preparation timeline
-3. ✅ Read `README-OPENSHIFT.md` for detailed understanding
-4. ✅ Review `CLAUDE.md` for workshop content
-5. ✅ Test deployment in dev environment first
-6. ✅ Prepare workshop materials (images, CSVs, PDFs)
+2. ✅ Read `README-OPENSHIFT.md` for detailed understanding
+3. ✅ Test deployment in dev environment first
+4. ✅ Verify LibreChat file upload functionality
+
+### For Participants (Post-Workshop):
+1. ✅ Use `PROMPT-CHEAT-SHEET.md` as quick reference
+2. ✅ Explore `PROMPT-LIBRARY.md` for ready-to-use templates
+3. ✅ Review `WORKSHOP-GUIDE.md` to revisit exercises
+4. ✅ Experiment with `sample-data/` files
 
 ---
 
