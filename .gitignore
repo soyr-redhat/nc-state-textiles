@@ -1,0 +1,12 @@
+# Secrets - never commit actual API keys
+openshift/00-secrets.yaml
+
+# MacOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log

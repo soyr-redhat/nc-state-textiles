@@ -10,7 +10,7 @@ NC='\033[0m' # No Color
 
 echo -e "${GREEN}========================================${NC}"
 echo -e "${GREEN}LibreChat OpenShift Deployment Script${NC}"
-echo -e "${GREEN}AI Workshop - April 2, 2025${NC}"
+echo -e "${GREEN}AI Workshop${NC}"
 echo -e "${GREEN}========================================${NC}"
 echo
 
@@ -26,8 +26,33 @@ if ! oc whoami &> /dev/null; then
     exit 1
 fi
 
-# Project name
-PROJECT_NAME="ai-workshop"
+# Get current project
+CURRENT_PROJECT=$(oc project -q 2>/dev/null || echo "")
+
+if [ -z "$CURRENT_PROJECT" ]; then
+    echo -e "${YELLOW}No project selected.${NC}"
+    read -p "Enter project name to create: " PROJECT_NAME
+    echo "Creating new project $PROJECT_NAME..."
+    oc new-project $PROJECT_NAME
+    CURRENT_PROJECT=$PROJECT_NAME
+else
+    echo -e "Current project: ${GREEN}$CURRENT_PROJECT${NC}"
+    echo
+    read -p "Deploy to this project? (y/n): " CONFIRM
+    if [[ ! $CONFIRM =~ ^[Yy]$ ]]; then
+        read -p "Enter new project name: " PROJECT_NAME
+        echo "Creating new project $PROJECT_NAME..."
+        oc new-project $PROJECT_NAME
+        CURRENT_PROJECT=$PROJECT_NAME
+    fi
+fi
+
+echo
+echo -e "Deploying to project: ${GREEN}$CURRENT_PROJECT${NC}"
+echo
+
+# Change to openshift directory
+cd openshift
 
 # Check if secrets file exists
 if [ ! -f "00-secrets.yaml" ]; then
@@ -44,17 +69,6 @@ if [ ! -f "00-secrets.yaml" ]; then
     echo
     read -p "Press Enter after editing 00-secrets.yaml to continue..."
 fi
-
-# Create or switch to project
-echo -e "${YELLOW}Creating/switching to project: $PROJECT_NAME${NC}"
-if oc get project $PROJECT_NAME &> /dev/null; then
-    echo "Project $PROJECT_NAME already exists. Switching to it..."
-    oc project $PROJECT_NAME
-else
-    echo "Creating new project $PROJECT_NAME..."
-    oc new-project $PROJECT_NAME
-fi
-echo
 
 # Deploy resources in order
 echo -e "${YELLOW}Deploying secrets...${NC}"
@@ -97,7 +111,8 @@ echo -e "${GREEN}========================================${NC}"
 echo -e "${GREEN}Deployment Complete!${NC}"
 echo -e "${GREEN}========================================${NC}"
 echo
-echo -e "LibreChat URL: ${GREEN}https://$ROUTE_URL${NC}"
+echo -e "Project:          ${GREEN}$CURRENT_PROJECT${NC}"
+echo -e "LibreChat URL:    ${GREEN}https://$ROUTE_URL${NC}"
 echo
 echo "Next steps:"
 echo "1. Visit the URL above"
